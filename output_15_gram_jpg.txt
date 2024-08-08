@@ -1,0 +1,61 @@
+1. Source Sentence: "Yesterday, I gone to a party with my friend David."
+   - Deviations: Incorrect verb tense
+   - Reason: "Gone" is incorrect; the correct past tense should be "went."
+   - New Sentence: "Yesterday, I went to a party with my friend David."
+
+2. Source Sentence: "He study english with me at university."
+   - Deviations: Incorrect verb conjugation, capitalization error
+   - Reason: "Study" should be "studies" to agree with the subject, "english" should be capitalized.
+   - New Sentence: "He studies English with me at university."
+
+3. Source Sentence: "David and I satt in the corner of the room."
+   - Deviations: Typographical error
+   - Reason: "Satt" should be corrected to "sat."
+   - New Sentence: "David and I sat in the corner of the room."
+
+4. Source Sentence: "He didn ' t making the first move to go and see her."
+   - Deviations: Incorrect verb form, unnecessary space
+   - Reason: "Making" should be "make," and the spaces around the apostrophe should be removed.
+   - New Sentence: "He didn't make the first move to go and see her."
+
+5. Source Sentence: "He taked a drink to get some energy and after a few minutes of endless hesitation, he walked to her."
+   - Deviations: Incorrect verb tense
+   - Reason: "Taked" should be corrected to "took."
+   - New Sentence: "He took a drink to get some energy and after a few minutes of endless hesitation, he walked to her."
+
+6. Source Sentence: "She gave a hint of a smile, noticing David blushing."
+   - Deviations: None
+   - Reason: This sentence is grammatically correct as is.
+   - New Sentence: "She gave a hint of a smile, noticing David blushing."
+
+7. Source Sentence: "She asked him if he enjoyed the party."
+   - Deviations: None
+   - Reason: This sentence is grammatically correct as is.
+   - New Sentence: "She asked him if he enjoyed the party."
+
+8. Source Sentence: "He whispered ' Yes ' and had a glance at me."
+   - Deviations: Quotation marks placement, article usage
+   - Reason: Quotation marks should not have spaces, "had a glance" can be simplified to "glanced."
+   - New Sentence: "He whispered 'Yes' and glanced at me."
+
+9. Source Sentence: "Feeling reassured and confident, he told her which feelings he was experiencing."
+   - Deviations: None
+   - Reason: This sentence is grammatically correct as is.
+   - New Sentence: "Feeling reassured and confident, he told her which feelings he was experiencing."
+
+10. Source Sentence: "She suddenly looked sullen. She looked emabarased."
+    - Deviations: Spelling error
+    - Reason: "Emabarased" should be corrected to "embarrassed."
+    - New Sentence: "She suddenly looked sullen. She looked embarrassed."
+
+11. Source Sentence: "She could hardly say a word but after a little seconds, she said : ' I ' m sorry to deceive you but actually I fancy Sebastian ' ."
+    - Deviations: Article usage, spacing around punctuation, word choice
+    - Reason: "Little seconds" should be "few seconds," remove spaces around the colons and apostrophes.
+    - New Sentence: "She could hardly say a word but after a few seconds, she said: 'I'm sorry to deceive you but actually I fancy Sebastian'."
+
+12. Source Sentence: "David fainted : ' a friend in need is a friend indeed ' !!"
+    - Deviations: Punctuation, capitalization
+    - Reason: Punctuation should be inside the quotes, "a" should be capitalized to start the quote.
+    - New Sentence: "David fainted: 'A friend in need is a friend indeed'!!"
+  
+By addressing these corrections, the text is now grammatically accurate, clear, and easy to read.
