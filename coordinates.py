@@ -26,11 +26,13 @@ image_path = r"Find_mistakes_1.jpg"
 # Getting the base64 string
 base64_image = encode_image(image_path)
 
+with open('output_15_gram_jpg.txt', 'r', encoding='latin-1') as file:
+    input = file.read()
 
 coordinates_instruction = f"""
 You are an expert in finding coordinates on images.
 Your role is to find coordinates on the given image that will match pdf in 72 ppi format.
-There is a review of the text on the image that has been already done before. You need to output the coordinates of the sentences to which each part of the review applies.
+There is a review of the text on the image that has been already done before. You need to output the coordinates of the first letter of the sentences to which each part of the review applies. Remember that every first letter of the sentence is at different width and height at the page.
 
 Here is an example of part of the review of the text on the image delimited by XXX below:
 XXX
@@ -51,7 +53,29 @@ XXX
 XXX
 
 Remember that the pdf is in 72 ppi format.
-Give an output with all of the coordinates with every sentence from the review.
+The width of one page in pdf is 595 pts and the height is 842 pts
+"""
+
+
+separate_instructions = f"""
+You are a helpful assistant that will change input to be perfectly organized for Python algorithm.
+
+Here is an example of input delimited by XXX below:
+XXX
+1. The sentence "Yesterday, I gone to a party with my friend David." starts at the coordinates (54, 32) on your image.
+XXX
+
+Here is an example of how you should change it delimited by XXX below:
+XXX
+"Yesterday, I gone to a party with my friend David."(54, 32)
+Comment_content: 1. Source Sentence: "Yesterday, I gone to a party with my friend David." - Deviations: Incorrect verb tense - Reason: "Gone" is incorrect; the correct past tense should be "went." - New Sentence: "Yesterday, I went to a party with my friend David."
+XXX
+Do not write anything beside text delimited by XXX. Do not write XXX in output. Also don't add any additional spacing or enters between sentences.
+
+Here is a whole comment_content that you need to use delimited by XXX below:
+XXX
+{input}
+XXX
 """
 
 
@@ -80,5 +104,26 @@ def coordinates():
     
     with open("result.txt", "w") as f:
         f.write(response.choices[0].message.content)
+    
+    return response.choices[0].message.content
 
-coordinates()
+def separate(output):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that prepare text for Python algorithm."},
+            {"role": "user", "content": f"""{separate_instructions}
+                                            Here is a whole input that you need to change delimited by XXX below
+                                            XXX
+                                            {output}
+                                            XXX
+             """},
+        ]
+    )
+    with open("separate_output.txt", "w") as f:
+        f.write(response.choices[0].message.content)
+
+    
+
+output = coordinates()
+separate(output)

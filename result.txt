@@ -1,37 +1,14 @@
-Below are the coordinates for each sentence mentioned in the review:
-
-1. Source Sentence: "Yesterday, I gone to a party with my friend David."
-   - The sentence "Yesterday, I gone to a party with my friend David." starts at the coordinates (60, 47) with a width of 365 pixels and a height of 13 pixels in your image.
-
-2. Source Sentence: "He study english with me at university."
-   - The sentence "He study english with me at university." starts at the coordinates (60, 62) with a width of 310 pixels and a height of 13 pixels in your image.
-
-3. Source Sentence: "David and I satt in the corner of the room."
-   - The sentence "David and I satt in the corner of the room." starts at the coordinates (60, 89) with a width of 297 pixels and a height of 13 pixels in your image.
-
-4. Source Sentence: "He didn ' t making the first move to go and see her."
-   - The sentence "He didn ' t making the first move to go and see her." starts at the coordinates (60, 116) with a width of 387 pixels and a height of 13 pixels in your image.
-
-5. Source Sentence: "He taked a drink to get some energy and after a few minutes of endless hesitation, he walked to her."
-   - The sentence "He taked a drink to get some energy and after a few minutes of endless hesitation, he walked to her." starts at the coordinates (60, 143) with a width of 521 pixels and a height of 13 pixels in your image.
-
-6. Source Sentence: "She gave a hint of a smile, noticing David blushing."
-   - The sentence "She gave a hint of a smile, noticing David blushing." starts at the coordinates (60, 170) with a width of 393 pixels and a height of 13 pixels in your image.
-
-7. Source Sentence: "She asked him if he enjoyed the party."
-   - The sentence "She asked him if he enjoyed the party." starts at the coordinates (60, 184) with a width of 305 pixels and a height of 13 pixels in your image.
-
-8. Source Sentence: "He whispered ' Yes ' and had a glance at me."
-   - The sentence "He whispered ' Yes ' and had a glance at me." starts at the coordinates (60, 198) with a width of 350 pixels and a height of 13 pixels in your image.
-
-9. Source Sentence: "Feeling reassured and confident, he told her which feelings he was experiencing."
-   - The sentence "Feeling reassured and confident, he told her which feelings he was experiencing." starts at the coordinates (60, 212) with a width of 472 pixels and a height of 13 pixels in your image.
-
-10. Source Sentence: "She suddenly looked sullen. She looked emabarased."
-    - The sentence "She suddenly looked sullen. She looked emabarased." starts at the coordinates (60, 226) with a width of 293 pixels and a height of 13 pixels in your image.
-
-11. Source Sentence: "She could hardly say a word but after a little seconds, she said : ' I ' m sorry to deceive you but actually I fancy Sebastian ' ."
-    - The sentence "She could hardly say a word but after a little seconds, she said : ' I ' m sorry to deceive you but actually I fancy Sebastian ' ." starts at the coordinates (60, 240) with a width of 533 pixels and a height of 13 pixels in your image.
-
-12. Source Sentence: "David fainted : ' a friend in need is a friend indeed ' !!"
-    - The sentence "David fainted : ' a friend in need is a friend indeed ' !!" starts at the coordinates (60, 254) with a width of 411 pixels and a height of 13 pixels in your image.
+XXX
+The sentence "Yesterday, I gone to a party with my friend David." starts at the coordinates (20, 40) with a width of 280 pixels and a height of 20 pixels in your image.
+The sentence "He study english with me at university." starts at the coordinates (21, 60) with a width of 240 pixels and a height of 20 pixels in your image.
+The sentence "David and I satt in the corner of the room." starts at the coordinates (21, 80) with a width of 240 pixels and a height of 20 pixels in your image.
+The sentence "He didn ' t making the first move to go and see her." starts at the coordinates (21, 100) with a width of 320 pixels and a height of 20 pixels in your image.
+The sentence "He taked a drink to get some energy and after a few minutes of endless hesitation, he walked to her." starts at the coordinates (21, 120) with a width of 480 pixels and a height of 20 pixels in your image.
+The sentence "She gave a hint of a smile, noticing David blushing." starts at the coordinates (21, 140) with a width of 320 pixels and a height of 20 pixels in your image.
+The sentence "She asked him if he enjoyed the party." starts at the coordinates (21, 160) with a width of 280 pixels and a height of 20 pixels in your image.
+The sentence "He whispered ' Yes ' and had a glance at me." starts at the coordinates (21, 180) with a width of 320 pixels and a height of 20 pixels in your image.
+The sentence "Feeling reassured and confident, he told her which feelings he was experiencing." starts at the coordinates (21, 200) with a width of 440 pixels and a height of 20 pixels in your image.
+The sentence "She suddenly looked sullen. She looked emabarased." starts at the coordinates (21, 220) with a width of 320 pixels and a height of 20 pixels in your image.
+The sentence "She could hardly say a word but after a little seconds, she said : ' I ' m sorry to deceive you but actually I fancy Sebastian ' ." starts at the coordinates (21, 240) with a width of 560 pixels and a height of 20 pixels in your image.
+The sentence "David fainted : ' a friend in need is a friend indeed ' !!" starts at the coordinates (21, 260) with a width of 440 pixels and a height of 20 pixels in your image.
+XXX
