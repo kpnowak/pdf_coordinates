@@ -2,29 +2,16 @@ import fitz  # PyMuPDF
 
 def parse_annotation_data(file_path):
     annotations = []
+    
     with open(file_path, 'r') as file:
-        lines = file.readlines()
-        i = 0
-        while i < len(lines):
-            line = lines[i].strip()
-            if line.startswith('"') and 'Comment_content' in line:
-                # Case where the sentence and comment are on the same line
-                sentence = line.split('"')[1]
-                coordinates_part = line.split('(')[1].split(')')[0]
-                coordinates = tuple(map(int, coordinates_part.split(',')))
-                comment = line.split("Comment_content: ")[1].strip()
-                annotations.append((sentence, coordinates, comment))
-                i += 1
-            elif line.startswith('"') and i + 1 < len(lines) and lines[i + 1].startswith("Comment_content"):
-                # Case where the comment is on the next line
-                sentence = line.split('"')[1]
-                coordinates_part = line.split('(')[1].split(')')[0]
-                coordinates = tuple(map(int, coordinates_part.split(',')))
-                comment = lines[i + 1].split("Comment_content: ")[1].strip()
-                annotations.append((sentence, coordinates, comment))
-                i += 2
-            else:
-                i += 1
+        for line in file:
+            # Extract the sentence (text to highlight), coordinates, and comment content
+            sentence = line.split('"')[1]
+            coordinates_part = line.split('(')[1].split(')')[0]
+            coordinates = tuple(map(int, coordinates_part.split(',')))
+            comment = line.split("Comment_content: ")[1].strip()
+            
+            annotations.append((sentence, coordinates, comment))
     
     return annotations
 

@@ -1,14 +1,18 @@
-XXX
-The sentence "Yesterday, I gone to a party with my friend David." starts at the coordinates (20, 40) with a width of 280 pixels and a height of 20 pixels in your image.
-The sentence "He study english with me at university." starts at the coordinates (21, 60) with a width of 240 pixels and a height of 20 pixels in your image.
-The sentence "David and I satt in the corner of the room." starts at the coordinates (21, 80) with a width of 240 pixels and a height of 20 pixels in your image.
-The sentence "He didn ' t making the first move to go and see her." starts at the coordinates (21, 100) with a width of 320 pixels and a height of 20 pixels in your image.
-The sentence "He taked a drink to get some energy and after a few minutes of endless hesitation, he walked to her." starts at the coordinates (21, 120) with a width of 480 pixels and a height of 20 pixels in your image.
-The sentence "She gave a hint of a smile, noticing David blushing." starts at the coordinates (21, 140) with a width of 320 pixels and a height of 20 pixels in your image.
-The sentence "She asked him if he enjoyed the party." starts at the coordinates (21, 160) with a width of 280 pixels and a height of 20 pixels in your image.
-The sentence "He whispered ' Yes ' and had a glance at me." starts at the coordinates (21, 180) with a width of 320 pixels and a height of 20 pixels in your image.
-The sentence "Feeling reassured and confident, he told her which feelings he was experiencing." starts at the coordinates (21, 200) with a width of 440 pixels and a height of 20 pixels in your image.
-The sentence "She suddenly looked sullen. She looked emabarased." starts at the coordinates (21, 220) with a width of 320 pixels and a height of 20 pixels in your image.
-The sentence "She could hardly say a word but after a little seconds, she said : ' I ' m sorry to deceive you but actually I fancy Sebastian ' ." starts at the coordinates (21, 240) with a width of 560 pixels and a height of 20 pixels in your image.
-The sentence "David fainted : ' a friend in need is a friend indeed ' !!" starts at the coordinates (21, 260) with a width of 440 pixels and a height of 20 pixels in your image.
-XXX
+### Co-ordinates output based on the input image and text review delimited below:
+
+**Left Column**
+1. The first letter of the sentence "Yesterday, I gone to a party with my friend David." is at coordinates **(23, 802)**.
+2. The first letter of the sentence "He whispered ' Yes ' and had a glance at me." is at coordinates **(23, 680)**
+3. The first letter of the sentence "She could hardly say a word but after a little seconds, she said : ' I ' m sorry to deceive you but actually I fancy Sebastian ' ." is at coordinates **(23, 486)**.
+
+**Middle Column**
+1. The first letter of the sentence "He study english with me at university." is at coordinates **(203, 784)**.
+2. The first letter of the sentence "She gave a hint of a smile, noticing David blushing." is at coordinates **(203, 742)**.
+3. The first letter of the sentence "Feeling reassured and confident, he told her which feelings he was experiencing." is at coordinates **(203, 664)**.
+4. The first letter of the sentence "She suddenly looked sullen. She looked emabarased." is at coordinates **(203, 504)**.
+
+**Right Column**
+1. The first letter of the sentence "David and I satt in the corner of the room." is at coordinates **(383, 762)**.
+2. The first letter of the sentence "He taked a drink to get some energy and after a few minutes of endless hesitation, he walked to her." is at coordinates **(383, 720)**.
+3. The first letter of the sentence "She asked him if he enjoyed the party." is at coordinates **(383, 700)**.
+4. The first letter of the sentence "David fainted : ' a friend in need is a friend indeed ' !!" is at coordinates **(383, 466)**.
