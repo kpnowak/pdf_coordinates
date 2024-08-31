@@ -14,10 +14,15 @@ Find_mistakes_1.jpg - not useful, pdf in jpg
 
 output_15_gram_jpg.txt - Contains a review of the pdf file made by the algorithm from Text-vs-jpg---OpenAI-comparison repository - It is one of many created reviews.
 
-**output_highlighted.pdf - final pdf that contains all of the comments and highlights**
+**output_highlighted_1.pdf - final pdf that contains all of the comments and highlights with no additional instructions**
+
+**output_highlighted_2.pdf - final pdf that contains all of the comments and highlights with instruction to find a different coordinates for each comment**
+
+**output_highlighted_3.pdf - final pdf that contains all of the comments and highlights with instruction to create 3 separate columns where coordinates are found**
 
 result.txt - coordinates with source sentences created by coordinates.py
 
 separate_output.txt - Special file prepared for comments.py by coordinates.py to place all of the comments and highlights
 
-Uses OpenAI API gpt-4o
+All of the needed things to run the algorithm are already inside each file.
+Simply, just add a key for OpenAI API to run the algorithm with the use of GPT-4o.
