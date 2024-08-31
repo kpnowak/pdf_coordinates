@@ -2,7 +2,9 @@ from openai import OpenAI, AzureOpenAI
 import base64
 import os
 
-
+os.environ['AZURE_OPENAI_API_KEY'] = ''
+os.environ['AZURE_OPENAI_ENDPOINT'] = ''
+os.environ['OPENAI_API_VERSION'] = ""
 
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
